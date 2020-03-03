@@ -34,6 +34,8 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("simple-line-icons/simple-line-icons.css");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR:700&display=swap');
 
 /* 
 /* b. Document Setup
@@ -43,7 +45,8 @@
 ---------------------------------------------------------------------- */
 body {
 	background: #0e1015;
-	font: 15px/30px "merriweather-regular", serif;
+	font: 15px/30px "Noto Sans KR", serif;
+	/* font: 15px/30px "merriweather-regular", serif; */
 	font-weight: normal;
 	color: #575859;
 }
@@ -65,7 +68,8 @@ a:hover, a:focus {
 /* Typography
 --------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "raleway-bold", sans-serif;
+	/* font-family: "raleway-bold", sans-serif; */
+	font-family: "Noto Serif KR", sans-serif;
 	color: #252525;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -1148,7 +1152,7 @@ hr {
 	color: #f26522;
 }
 .section-head p {
-	font: 18px/36px "merriweather-light", sans-serif;
+	font: 25px/50px "Noto Sans KR", sans-serif;
 	width: 95%;
 	color: #707273;
 	margin-left: auto;
@@ -1364,7 +1368,8 @@ hr {
 	margin: 0 15%;
 }
 #hero-slider .flex-caption h1 {
-	font: 54px/1.3 "raleway-semibold", sans-serif;
+	/* font: 54px/1.3 "raleway-semibold", sans-serif; */
+	font: 54px/1.3 "Noto Serif KR", sans-serif;
 	color: white;
 	letter-spacing: -1px;
 	margin-bottom: 36px;

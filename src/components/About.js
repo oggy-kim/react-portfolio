@@ -16,19 +16,19 @@ class About extends React.Component {
         }
         return(
             <section id="about">
-            <div className="row section-head">
-                <div className="twelve columns">
-                  <h1>Who Am I<span>.</span></h1>
-                  <hr />
-                  <p>{aboutMe}</p>
-               </div>
-           </div>
-           <div className="row about-content"> 
-            {aboutMeDetail}
-           </div>
-           <br />
-           <br />    
-        </section> 
+                <div className="row section-head">
+                    <div className="twelve columns">
+                        <h1>About Me<span>.</span></h1>
+                        <hr />
+                        <p>{aboutMe}</p>
+                    </div>
+                </div>
+                <div className="row about-content"> 
+                    {aboutMeDetail}
+                </div>
+                <br />
+                <br />    
+            </section> 
         );
     }
 }

@@ -1,7 +1,24 @@
 {
     "main": {
         "name":"김옥철",
-        "numberone":"There's two things you can control, \"attitude and effort.\""
+        "numberone":"\"어제의 나보다 더 나은 오늘의 나를 만나자.\"",
+        "social":[
+            {
+                "name":"github",
+                "url":"http://github.com/oggy-kim",
+                "className":"fa fa-github"
+            },
+            {
+                "name":"email",
+                "url":"mailto:oksamha@gmail.com",
+                "className":"fa fa-envelope"
+            },
+            {
+                "name":"blog",
+                "url":"http://oggy-kim.github.io",
+                "className":"fa fa-comment"
+            }
+        ]
     },
     "resume":{
         "introduce":"대기업 재무팀에서 나와 좀 더 넓은 세상을 만나고자 지구 한바퀴를 돈 뒤, 개발자의 삶을 선택하였습니다. 어제보다 오늘이 더 나은, 오늘보다 내일이 더 기대되는, 하루하루 발전하는 개발자가 되고자 합니다.",
@@ -49,20 +66,26 @@
             }
         ]
     },
-        "portfolio":{
-            "portfolioMessage":"",
+    "portfolio":{
+            "portfolioMessage":"저의 포트폴리오 작업물입니다.",
             "projects":[
             {
-                "title":"",
-                "category":"",
-                "image":"",
-                "url":""
+                "title":"CODEHAPPY",
+                "category":"Spring, MariaDB, Bootstrap / 개발자들을 위한 커뮤니티 사이트로, 회원별 포인트, 소셜 로그인, 게시판 기능이 제공됩니다.",
+                "image":"codehappy",
+                "url":"http://www.codehappy.me"
             },
             {
-                "title":"",
-                "category":"",
-                "image":"",
-                "url":""
+                "title":"CODEHAPPY Chat-app",
+                "category":"Node.js, Socket.io / 사이트 내 사용자들을 위한 채팅 앱입니다.",
+                "image":"chatapp",
+                "url":"https://github.com/oggy-kim/team34-chatapp"
+            },
+            {
+                "title":"Personal Portfolio",
+                "category":"React.js / 개인 포트폴리오 사이트입니다. React.js를 활용한 SPA로 제작하였습니다. ",
+                "image":"oggy-kim",
+                "url":"https://github.com/oggy-kim/personal-portfolio"
             }
         ]
     }

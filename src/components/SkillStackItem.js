@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SkillStackItem = (props) => {
-    console.log(props.data);
     if(props.data) {
         var name = props.data.name;
         var url = `/images/skills/${name}.png`;
@@ -16,7 +15,6 @@ const SkillStackItem = (props) => {
                 <p>{description}</p>   
             </div>      
         </div> 
-                   
     );
 };
 

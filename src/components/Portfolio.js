@@ -2,15 +2,13 @@ import React from 'react';
 import PortfolioItem from './PortfolioItem';
 
 class Portfolio extends React.Component {
-    state = {portfolio: {}};
-
     render() {
         if(this.props.data) {
             var portfolioMessage = this.props.data.portfolioMessage;
-            var portfolioItems = this.props.data.portfolioItems;
-            // var portfolioList = portfolioItems.map((item) => {
-            //     return <PortfolioItem />
-            // });
+            var projects = this.props.data.projects;
+            var portfolioList = projects.map((project) => {
+                return <PortfolioItem key={project.name} data={project}/>
+            });
         }
 
         return(
@@ -24,10 +22,13 @@ class Portfolio extends React.Component {
                 </div>
                 <div className="row items">
                     <div className="twelve columns">
-                        <PortfolioItem />
-                            {/* {portfolioList} */}
-                </div> 
+                        <div id="portfolio-wrapper" className="bgrid-third s-bgrid-third mob-bgrid-half group">
+                        {portfolioList}
+                        </div>
+                    </div> 
                 </div>  
+                <br />
+                <br />
             </section>
         );
     }

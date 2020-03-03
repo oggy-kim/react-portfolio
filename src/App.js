@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
@@ -12,7 +13,6 @@ class App extends React.Component {
 
     async getResumeData() {
         const res = await fetch('/resumeData.json');
-
         if(res.ok) {
             this.setState({resumeData: await res.json()});
         }

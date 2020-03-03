@@ -1,0 +1,19 @@
+#contact {
+    height: 75vh;
+}
+
+#contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#contact i {
+    font-size: 50px;
+    margin: 0px 50px 0px 50px;
+}
+
+#contact i:hover {
+    color: white;
+    transition: all 0.5s;
+}
