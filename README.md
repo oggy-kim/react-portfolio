@@ -6,10 +6,10 @@
 
 ![main_page](./img/main.png)
 
-[link](https://jolly-pare-994dc2.netlify.com)
+[link](http://oggy-kim.com)
 
 This site is made using *React.js*. 
-You can easily connect via click [**Here**](https://jolly-pare-994dc2.netlify.com)
+You can easily connect via click [**Here**](http://oggy-kim.com)
 
 ## Portfolio stack
 
