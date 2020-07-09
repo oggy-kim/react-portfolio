@@ -11,7 +11,7 @@ class Header extends React.Component {
                       <span className='menu-text'>Show Menu</span>
                       <span className="menu-icon"></span>
                   </a>
-                  <a className="mobile-btn" title="Hide navigation">
+                  <a className="mobile-btn" href="/" title="Hide navigation">
                       <span className='menu-text'>Hide Menu</span>
                       <span className="menu-icon"></span>
                   </a>         
